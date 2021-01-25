@@ -1,0 +1,80 @@
+/*--Styling for the fixed bar at top of page--*/
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; 
+  top: 0;  
+  padding-left: 16px;
+  border-left-width: 0px;
+  padding-right: 16px;
+  left: 0px;
+  width: 100%; /* Full width */
+}
+
+   
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: darkslategrey;
+}
+
+/* Main content */
+
+.container {
+    background-image: url(/images/concert.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.image{
+    height:100px;
+    width:100px;
+    margin:-25px auto 0 -25px;
+    background:grey;
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+.main {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+/*This is the styling for the main page body*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*This is the styling for the footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
