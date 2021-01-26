@@ -2,7 +2,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(94, 18, 18);
   position: fixed; 
   top: 0;  
   padding-left: 16px;
@@ -25,8 +25,8 @@
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: darkslategrey;
+  background:rgb(119, 42, 33);
+  color: whitesmoke);
 }
 
 /* Main content */
@@ -37,6 +37,16 @@
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+p {
+    padding-right: 30px;
+    padding-top: 10px;
 }
 
 .image{
@@ -74,7 +84,8 @@ h1 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: rgb(94, 18, 18);
   color: white;
-  text-align: center;
+  text-align: right;
 }
+
